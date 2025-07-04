@@ -1,5 +1,5 @@
 import React from 'react';
-import { getWeatherIcon, formatTime, getWindDirection } from '../utils/weatherUtils';
+import { getWeatherIcon, formatTime, getWindDirection } from '../utils/WeatherUtils';
 import { Thermometer, Droplets, Wind, Eye, Gauge, Sunrise, Sunset } from 'lucide-react';
 
 export const WeatherCard = ({ weather }) => {
