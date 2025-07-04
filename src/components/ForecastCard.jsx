@@ -1,5 +1,5 @@
 import React from 'react';
-import { getWeatherIcon, formatDate } from '../utils/weatherUtils';
+import { getWeatherIcon, formatDate } from '../utils/WeatherUtils';
 
 export const ForecastCard = ({ forecast }) => {
   // Get daily forecasts (one per day at 12:00)
